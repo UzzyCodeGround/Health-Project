@@ -5,7 +5,8 @@ const completion = await openai.chat.completions.create({
     messages: [
         {"role": "user", "content": "write a haiku about ai"}
     ]
-});
+}).console.log(completion);
+
 
 
 
