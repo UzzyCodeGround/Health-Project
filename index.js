@@ -13,9 +13,3 @@ const completion = await openai.chat.completions.create({
     ]
 
 }).console.log(completion);
-
-
-
-
-
-d
