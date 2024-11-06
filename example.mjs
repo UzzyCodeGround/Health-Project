@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: process.env['OPENAI_API_KEY'],
 });
 
 const chatCompletion = await openai.chat.completions.create({
@@ -9,3 +9,7 @@ const chatCompletion = await openai.chat.completions.create({
     model: "gpt-4o-mini",
 });
 
+
+
+// npm install - - save openai 
+//npm install openai 
