@@ -14,3 +14,4 @@ const completion = await openai.chat.completions.create({
 
 }).console.log(completion);
 
+        //initiate the request - understand the compents and the key
