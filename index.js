@@ -13,5 +13,5 @@ const completion = await openai.chat.completions.create({
     ]
 
 }).console.log(completion);
-
+//fix authentication 
         //initiate the request - understand the compents and the key
